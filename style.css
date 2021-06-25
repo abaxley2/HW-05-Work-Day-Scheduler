@@ -69,3 +69,26 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+table#table1 {
+  width:90%; 
+  margin-left:5%; 
+  margin-right:5%;
+}
+
+table, 
+th, 
+td {
+  border: 1px dotted black;
+}
+
+th{
+  text-align: center;
+}
+
+tr {
+  height: 100px;
+}
+
+
+
