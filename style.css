@@ -10,6 +10,8 @@ textarea {
   resize: none;
   color: #000000;
   border-left: 1px solid black;
+  width: 100%;
+  height: 100%;
   padding: 10px;
 }
 
@@ -70,5 +72,16 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+table#table1 {
+  width:90%; 
+  margin-left:5%; 
+  margin-right:5%;
+}
 
+th{
+  text-align: center;
+}
 
+tr {
+  height: 100px;
+}

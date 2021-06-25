@@ -6,15 +6,15 @@ $("#currentDay").text(today.format("[Today's Date is ]MMM Do, YYYY"));
 //figure out what time of day it is
 var checkTime = function () {
     var currentHour = moment().format("H");
-    var colorRowEl = $(".textAreaRow");
+    var colorRowEl = $(".past");
     console.log(colorRowEl);
     console.log(currentHour);
 
     for (var i = 0; i < colorRowEl; i++) {
 
-        var timeID = colorRowEl.id;
+        var timeID = colorRowEl[id].id;
         
-        var changeColor = document.getElementById(colorRowEl.id);
+        var changeColor = document.getElementById(colorRowEl[id].id);
 
         $(colorRowEl.id).removeClass(".present, .past, .future");
 
