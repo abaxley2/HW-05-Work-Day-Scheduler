@@ -76,12 +76,6 @@ table#table1 {
   margin-right:5%;
 }
 
-table, 
-th, 
-td {
-  border: 1px dotted black;
-}
-
 th{
   text-align: center;
 }
