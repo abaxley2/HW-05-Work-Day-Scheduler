@@ -70,19 +70,5 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-table#table1 {
-  width:90%; 
-  margin-left:5%; 
-  margin-right:5%;
-}
-
-th{
-  text-align: center;
-}
-
-tr {
-  height: 100px;
-}
-
 
 
